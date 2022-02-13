@@ -1,7 +1,7 @@
 program Ordenar
        integer ::x,y,z
        
-       Print*,'Entre com os n£mero que deseja ordenar:'
+       Print*,'Entre com os números que deseja ordenar:'
          read*,x,y,z
         !São três variáveis e seis permutações possíveis
          if (x>y.and.y>z)  then
